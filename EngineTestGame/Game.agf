@@ -668,6 +668,10 @@
             <Description IsNull="True" />
             <Number>1</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>300</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -1415,7 +1419,7 @@
             <SpeechView>0</SpeechView>
             <StartX>122</StartX>
             <StartY>142</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>300</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -3783,6 +3787,30 @@
                 <Author>Edmundo Ruiz Ghanem et al.</Author>
                 <Version>2.4.0</Version>
                 <Key>1249765699</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>Extenders.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1384247046</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>Extenders.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1384247046</Key>
                 <IsHeader>False</IsHeader>
               </Script>
             </ScriptAndHeader_Script>
